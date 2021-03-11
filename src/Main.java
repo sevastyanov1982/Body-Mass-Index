@@ -5,6 +5,6 @@ public class Main {
         double weight = 80.5;
         double growth = 1.82;
         double bmi = service.calculate(weight, growth);
-        System.out.println("Индекс Массы Тела  "+ String.format("%.0f", bmi));
+        System.out.printf("Индекс Массы Тела: %.0f", bmi);
     }
 }
